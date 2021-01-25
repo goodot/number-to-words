@@ -11,7 +11,7 @@ class PolishDictionary implements Dictionary
     const LANGUAGE_NAME_NATIVE = 'polski';
 
     private static $units = [
-        0 => '',
+        0 => 'zero',
         1 => 'jeden',
         2 => 'dwa',
         3 => 'trzy',
@@ -50,7 +50,7 @@ class PolishDictionary implements Dictionary
     ];
 
     private static $hundreds = [
-        0 => '',
+        0 => 'zero',
         1 => 'sto',
         2 => 'dwieście',
         3 => 'trzysta',
